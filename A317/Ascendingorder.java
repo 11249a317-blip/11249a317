@@ -1,5 +1,16 @@
-import java.util.Scanner;
-public class AscendingOrder
+Aim:To write a Java program to read the elements of an array and arrange them in ascending order.import java.util.Scanner;
+Algorithm
+1.Start the program.
+2.Import the Scanner class.
+3.Read the number of elements n.
+4.Create an integer array of size n.
+5.Read all the elements into the array.
+6.Compare each element with the remaining elements using nested loops.
+7.If the first element is greater than the second element, swap them.
+8.Repeat the process until all elements are arranged in ascending order.
+9.Display the sorted array.
+10.Stop the program.
+  public class AscendingOrder
 {
 public static void main(String[] args)
 {
@@ -33,3 +44,13 @@ System.out.print(a[i] + ",");
 System.out.print(a[n - 1]);
 }
 }
+Sample Output
+Enter no. of elements you want in array:5
+Enter all the elements:
+50
+20
+40
+10
+30
+Ascending Order:10,20,30,40,50
+Result:Thus, the Java program to arrange the elements of an array in ascending order was successfully executed and the required output was obtained.  
