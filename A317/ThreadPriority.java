@@ -11,6 +11,7 @@ Algorithm:
 8.Start all three threads using the start() method.
 9.Display the end of the main thread.
 10.Stop the program.
+program:
 import java.io.*;
 class A extends Thread
 {
