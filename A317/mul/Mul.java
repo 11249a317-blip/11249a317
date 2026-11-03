@@ -8,6 +8,7 @@ Algorithm:
 5. Multiply the two integers and store the result in res.
 6. Display the multiplication result.
 7. Stop the program.
+program:
 package mul;
 public class Mul
 {
