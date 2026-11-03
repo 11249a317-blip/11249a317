@@ -9,7 +9,7 @@ Algorithm:
 7.Call divop(20,10) to perform division.
 8.Display the results.
 9.Stop the program.
-
+program:
 import java.util.*;
 import add.*;
 import sub.*;
